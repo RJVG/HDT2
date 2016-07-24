@@ -39,15 +39,6 @@ public abstract class Calc implements Interface {
     
     private String Texto;
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
   public String [] Apertura() throws IOException{
         FileReader archivo = new FileReader(Texto);
         BufferedReader lect_texto = new BufferedReader(archivo);
@@ -76,9 +67,6 @@ public abstract class Calc implements Interface {
         bf.close();
         return lineas;
     }
-    
-    
-    
     
     @Override
     public boolean empty(){
@@ -163,13 +151,7 @@ public abstract class Calc implements Interface {
     
     
     public static void main(String args[]) throws IOException {
-        String nombre_archivo = "datos.txt";
+        String texto = "datos.txt";
         
     }
-    
-      
-    
-    
-    
-    
 }
