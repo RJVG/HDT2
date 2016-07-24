@@ -17,4 +17,6 @@ public interface Interface {
     public void defrag(String linea);
     public void comparar ();
     public int Calcular ();
+    public String [] Apertura();
+    public int contarLineas ();
 }
