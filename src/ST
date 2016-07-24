@@ -36,15 +36,13 @@ public class ST {
     
 	
 	
-	 public static void main(String[] args) {
-	
-    
-		public ST(){
-			this.array = new Object[128];
-			this.index = 0;
-			
-		}
+	 public static void main(String[] args) throws IOException {
 		
+		String nombre_archivo = "datos.txt";
+    
+		this.array = new Object[128];
+		this.index = 0;
+	
 		public boolean empty(){
 			return index == 0;        
 		}
